@@ -1,59 +1,69 @@
+package dto;
 
 public class Dto {
 
-	private int month;
-	private int day;
-	private String use;
-	private int income;
-	private int spending;
+	private int tosi;
+	private int tuki;
+	private int hiniti;
+	private String koumoku;
+	private int syuunyuu;
+	private int sisyutu;
 
-	public Dto(int month,int day,String use, int income,int spending){
-		this.month = month;
-		this.day = day;
-		this.use = use ;
-		this.income = income;
-		this.spending = spending;
+	public Dto(int tosi,int tuki,int hiniti,String koumoku, int syuunyuu,int sisyutu){
+		this.tosi = tosi;
+		this.tuki = tuki;
+		this.hiniti = hiniti;
+		this.koumoku = koumoku ;
+		this.syuunyuu = syuunyuu;
+		this.sisyutu = sisyutu;
 	}
 
-	public int getMonth() {
-		return month;
+	public int getTosi() {
+		return tosi;
 	}
 
-	public int getDay() {
-		return day;
+	public int getTuki() {
+		return tuki;
 	}
 
-	public String getUse() {
-		return use;
+	public int getHiniti() {
+		return hiniti;
 	}
 
-	public int getIncome() {
-		return income;
+	public String getKoumoku() {
+		return koumoku;
 	}
 
-	public int getSpending() {
-		return spending;
+	public int getSyuunyuu() {
+		return syuunyuu;
 	}
 
-	public void setMonth(int month) {
-		this.month = month;
+	public int getSisyutu() {
+		return sisyutu;
 	}
 
-	public void setDay(int day) {
-		this.day = day;
+	public void setTosi(int tosi) {
+		this.tosi = tosi;
 	}
 
-	public void setUse(String use) {
-		this.use = use;
+	public void setTuki(int tuki) {
+		this.tuki = tuki;
 	}
 
-	public void setIncome(int income) {
-		this.income = income;
+	public void setHiniti(int hiniti) {
+		this.hiniti = hiniti;
 	}
 
-	public void setSpending(int spending) {
-		this.spending = spending;
+	public void setKoumoku(String koumoku) {
+		this.koumoku = koumoku;
 	}
 
+	public void setSyuunyuu(int syuunyuu) {
+		this.syuunyuu = syuunyuu;
+	}
+
+	public void setSisyutu(int sisyutu) {
+		this.sisyutu = sisyutu;
+	}
 
 }
