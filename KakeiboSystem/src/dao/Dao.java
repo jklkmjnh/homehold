@@ -21,7 +21,7 @@ public class Dao {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			con = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/Kakeibo?useSSL=false",
+					"jdbc:mysql://localhost:3306/Kadaidb?useSSL=false",
 					"userXXX",
 					"password");
 
